@@ -1,15 +1,15 @@
 # 🌟 Urdu Word Embeddings 📚
 
-This project demonstrates the use of Word2Vec models to create word embeddings for Urdu language text. Word embeddings are dense vector representations of words that capture semantic and syntactic relationships between words. These embeddings can be used for various natural language processing tasks such as word similarity, language generation, and sentiment analysis. 💪
+This project demonstrates the use of Word2Vec models to create word embeddings for Urdu language text. Word embeddings are dense vector representations of words that capture semantic and syntactic relationships between words. These embeddings can be used for various natural languages processing tasks such as word similarity, language generation, and sentiment analysis. 💪
 
 ## 📋 Dataset
 
 The project utilizes the "urdu short 20k.txt" news dataset, which contains a collection of 20,000 lines of Urdu language text. This dataset serves as a starting point for experimentation.  
-📚 However, for better accuracy, users can replace it with a larger dataset containing more than 100,000 lines of text. Adding more data can improve the quality of word embeddings and the performance of the LSTM model.  
+📚 However, users can replace it with a larger dataset containing more than 100,000 lines of text for better accuracy. Adding more data can improve the quality of word embeddings and the performance of the LSTM model.  
 
 ## 🧠 Word2Vec Model Training
 
-The Word2Vec model is trained using the Continuous Bag of Words (CBOW) and Skip-Gram methods. The trained models generate word embeddings by considering the context of words in a given sentence. The model parameters, such as vector size, window size, and minimum count, can be adjusted based on the specific requirements. 📖
+The Word2Vec model is trained using the Continuous Bag of Words (CBOW) and Skip-Gram methods. The trained models generate word embeddings by considering the context of words in a given sentence. The model parameters, such as vector size, window size, and minimum count, can be adjusted based on specific requirements. 📖
 
 ## 🔎 Word Similarity and Visualization
 
@@ -50,7 +50,7 @@ Contributions to this project are welcome. If you encounter any issues or have s
 ## 📜 Acknowledgements
 
 The "urdu short 20k.txt" dataset used in this project is obtained from [urdu short 20k.txt](https://drive.google.com/file/d/16Sg5NDB-rr6ROrAee8TUWMTDiyGzOf2b/view?usp=sharing) and is used for research purposes.  
-If you want to further improve the accuracy, Similarity so you can use this dataset that contain more than 100,000 lines of urdu news data  [urdu_news_dataset.txt](https://drive.google.com/file/d/1kueVp6_YnO5osmYrX4RzdIPzq9Hf3Aq4/view?usp=sharing)  
+If you want to further improve the accuracy, Similarity so you can use this dataset that contains more than 100,000 lines of Urdu news data  [urdu_news_dataset.txt](https://drive.google.com/file/d/1kueVp6_YnO5osmYrX4RzdIPzq9Hf3Aq4/view?usp=sharing)  
 📖The project is built using the NLTK, Gensim, scikit-learn, Pandas, NumPy, and TensorFlow libraries. 🧰
 
 ## 📚 References
